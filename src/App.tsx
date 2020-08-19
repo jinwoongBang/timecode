@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import CounterContainer from 'containers/CounterContainer';
+import React from 'react';
+import Counter from 'components/Counter';
 
 function App() {
-  return <CounterContainer></CounterContainer>;
+  return <Counter />;
 }
 export default App;
